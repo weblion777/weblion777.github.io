@@ -26,7 +26,7 @@
     	Array.prototype.find.call(list, function($reg, $reg_key) {
 			var cReg = new RegExp($reg);
 			var l = $value.src.match(cReg);
-			console.log($reg);
+			// console.log($reg);
 			if(l !== null) if(l.length > 0) $value.setAttribute('src', $value.src.replace(l[0], actual));
 		});
     });
