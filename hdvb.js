@@ -1,8 +1,8 @@
-!function() {
+;!function() {
 
-    var actual = 'https://vid' + Date.now() + '.tehranvd.biz',
+    var actual = 'https://vid' + Date.now() + '.farsihd.pw',
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
-        https = ['makrohd.(info|com|net)', 'hdvb.(cc|xyz)', 'videolishd.(net|com)',  'farsihd.(info)', 'tehranvd.(ru|su|net|com|org|pw|biz)', 'my\-serials.(info)'],
+        https = ['makrohd.(info|com|net)', 'hdvb.(cc|xyz)', 'videolishd.(net|com)',  'farsihd.(info|pw)', 'tehranvd.(ru|su|net|com|org|pw|biz)', 'my\-serials.(info)'],
         list = [], delay = 200;
 
     function listForeach (callback) {
@@ -26,8 +26,13 @@
     	Array.prototype.find.call(list, function($reg, $reg_key) {
 			var cReg = new RegExp($reg);
 			var l = $value.src.match(cReg);
-			// console.log($reg);
-			if(l !== null) if(l.length > 0) $value.setAttribute('src', $value.src.replace(l[0], actual));
+			if(l !== null) {
+                if(l.length > 0) {
+                    var s = $value.src.replace(l[0], actual);
+                    $value.setAttribute('src', '');
+                    setTimeout(function(){ $value.setAttribute('src', s);}, 100);
+                }
+            }
 		});
     });
 
