@@ -1,6 +1,6 @@
 !function() {
 
-    var actual = 'https://vid' + Date.now() + '.tehranvd.biz',
+    var actual = 'https://vid' + Date.now() + '.farsihd.pw',
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = ['makrohd.(info|com|net)', 'hdvb.(cc|xyz)', 'videolishd.(net|com)',  'farsihd.(info)', 'tehranvd.(ru|su|net|com|org|pw|biz)', 'my\-serials.(info)'],
         list = [], delay = 200;
