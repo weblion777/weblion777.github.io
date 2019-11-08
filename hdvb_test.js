@@ -1,6 +1,6 @@
 ;!function() {
 
-    var hdvb_domain = 'farsihd.pw',
+    var hdvb_domain = 'vb17102bernardjordan.pw',
         actual = 'https://vid' + Date.now() + '.' + hdvb_domain,
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = [
@@ -9,9 +9,12 @@
             'videolishd.(net|com)',
             'farsihd.(info|pw)',
             'tehranvd.(ru|su|net|com|org|pw|biz)',
-            'my\-serials.(info)'
+            'my\-serials.(info)',
+            'vb17102bernardjordan.(pw)'
         ],
         list = [];
+
+
 
     function listForeach (callback) {
         https.forEach(function (value, key) {

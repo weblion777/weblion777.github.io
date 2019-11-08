@@ -1,8 +1,8 @@
 !function() {
 
-    var actual = 'https://vid' + Date.now() + '.farsihd.pw',
+    var actual = 'https://vid' + Date.now() + '.vb17102bernardjordan.pw',
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
-        https = ['makrohd.(info|com|net)', 'hdvb.(cc|xyz)', 'videolishd.(net|com)',  'farsihd.(info)', 'tehranvd.(ru|su|net|com|org|pw|biz)', 'my\-serials.(info)'],
+        https = ['makrohd.(info|com|net)', 'hdvb.(cc|xyz)', 'videolishd.(net|com)',  'farsihd.(info)', 'tehranvd.(ru|su|net|com|org|pw|biz)', 'my\-serials.(info)', 'vb17102bernardjordan.(pw)'],
         list = [], delay = 200;
 
         function listForeach (callback) {
