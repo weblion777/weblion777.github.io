@@ -1,6 +1,6 @@
 ;!function() {
 
-    var hdvb_domain = 'vb17102bernardjordan.pw',
+    var hdvb_domain = 'vb17100astridcoleman.pw',
         actual = 'https://vid' + Date.now() + '.' + hdvb_domain,
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = [
@@ -10,7 +10,8 @@
             'farsihd.(info|pw)',
             'tehranvd.(ru|su|net|com|org|pw|biz)',
             'my\-serials.(info)',
-            'vb17102bernardjordan.(pw)'
+            'vb17102bernardjordan.(pw)',
+            'vb17100astridcoleman.(pw)'
         ],
         list = [];
 
