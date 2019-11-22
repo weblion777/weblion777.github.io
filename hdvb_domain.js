@@ -1,1 +1,1 @@
-var hdvb_domain = 'vb17103elmerwatson.pw';
+var hdvb_domain = 'vb17104alfredcurry.pw';
