@@ -1,6 +1,6 @@
 ;!function() {
 
-    var hdvb_domain = 'vb17104alfredcurry.pw',
+    var hdvb_domain = 'vb17105quinnnash.pw',
         actual = 'https://vid' + Date.now() + '.' + hdvb_domain,
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = [
@@ -14,7 +14,8 @@
             'vb17100astridcoleman.(pw)',
             'vb17101tesswalton.(pw)',
             'vb17103elmerwatson.(pw)',
-            'vb17104alfredcurry.(pw)'
+            'vb17104alfredcurry.(pw)',
+            'vb17105quinnnash.(pw)'
         ],
         list = [];
 
