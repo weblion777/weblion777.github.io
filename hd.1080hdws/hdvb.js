@@ -1,8 +1,8 @@
 !function() {
 
-        var actual = 'https://vid' + Date.now() + '.vb17105quinnnash.pw',
+        var actual = 'https://vid' + Date.now() + '.vb17106cecilgregory.pw',
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
-        https = ["makrohd.(info|com|net)","hdvb.(cc|xyz)","videolishd.(net|com)","farsihd.(info|pw)","tehranvd.(ru|su|net|com|org|pw|biz)","my-serials.(info)", "vb17102bernardjordan.(pw)", "vb17100astridcoleman.(pw)", "vb17101tesswalton.(pw)", "vb17103elmerwatson.(pw)", "vb17104alfredcurry.(pw)", "vb17105quinnnash.(pw)"],
+        https = ["makrohd.(info|com|net)","hdvb.(cc|xyz)","videolishd.(net|com)","farsihd.(info|pw)","tehranvd.(ru|su|net|com|org|pw|biz)","my-serials.(info)", "vb17102bernardjordan.(pw)", "vb17100astridcoleman.(pw)", "vb17101tesswalton.(pw)", "vb17103elmerwatson.(pw)", "vb17104alfredcurry.(pw)", "vb17105quinnnash.(pw)", "vb17106cecilgregory.(pw)"],
         list = [], delay = 200;
 
     function listForeach (callback) {
