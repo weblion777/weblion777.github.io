@@ -14,7 +14,16 @@ function getParams () {
 	return options;
 }
 
-var hdvb_domain = 'vb17105quinnnash.pw';
+function get(url, callb) {
+	var xhr = new XMLHttpRequest;
+	xhr.open('GET', url);
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState === 4 && xhr.status === 200) callb(xhr.response);
+	};
+	xhr.send();
+}
+
+var hdvb_domain = 'vb17106cecilgregory.pw';
 var actual = 'https://vid' + Date.now() + '.' + hdvb_domain;
 
 window.onload = function () {
@@ -28,25 +37,28 @@ window.onload = function () {
 
 	if (typeof params != 'undefined' && typeof params.idkp != 'undefined') {
 		hdvb_kp = params.idkp;
-		
-		if (typeof params.id != 'undefined') {
-			hdvb_id = params.id;		
-			hdvb_id = document.getElementById(hdvb_id) || false;		
-		}
-		
-		if (typeof params.width != 'undefined') {
-			hdvb_width = params.width;		
-		}
-		
-		if (typeof params.height != 'undefined') {
-			hdvb_height = params.height;		
-		}
-		
-		var url = actual + '/api/idkp?kp_id=' + hdvb_kp;
-		
-		if (hdvb_id !== false) {			
-			var iframe = '<iframe width="'+hdvb_width+'" height="'+hdvb_height+'" src="'+url+'"></iframe>';
-			hdvb_id.innerHTML = iframe;
-		}
+		get(actual + '/api/idkp?check=' + hdvb_kp, function (r) {
+			if (r === 'success') {
+				if (typeof params.id != 'undefined') {
+					hdvb_id = params.id;		
+					hdvb_id = document.getElementById(hdvb_id) || false;		
+				}
+				
+				if (typeof params.width != 'undefined') {
+					hdvb_width = params.width;		
+				}
+				
+				if (typeof params.height != 'undefined') {
+					hdvb_height = params.height;		
+				}
+				
+				var url = actual + '/api/idkp?kp_id=' + hdvb_kp;
+				
+				if (hdvb_id !== false) {			
+					var iframe = '<iframe width="'+hdvb_width+'" height="'+hdvb_height+'" src="'+url+'"></iframe>';
+					hdvb_id.innerHTML = iframe;
+				}
+			}
+		});
 	}			
 }
