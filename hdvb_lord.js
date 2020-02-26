@@ -23,11 +23,12 @@ function get(url, callb) {
 	xhr.send();
 }
 
-var hdvb_domain = 'vb17106cecilgregory.pw';
+var hdvb_domain = 'vb17108janenoble.pw';
 var actual = 'https://vid' + Date.now() + '.' + hdvb_domain;
 
 window.onload = function () {
 	
+	var domain;
 	var hdvb_kp;
 	var hdvb_id 	= false;
 	var hdvb_width 	= '100%';
@@ -37,6 +38,7 @@ window.onload = function () {
 
 	if (typeof params != 'undefined' && typeof params.idkp != 'undefined') {
 		hdvb_kp = params.idkp;
+		domain = params.d;
 		get(actual + '/api/idkp?check=' + hdvb_kp, function (r) {
 			if (r === 'success') {
 				if (typeof params.id != 'undefined') {
@@ -52,7 +54,7 @@ window.onload = function () {
 					hdvb_height = params.height;		
 				}
 				
-				var url = actual + '/api/idkp?kp_id=' + hdvb_kp;
+				var url = actual + '/api/idkp?kp_id=' + hdvb_kp + '&d=' + domain;
 				
 				if (hdvb_id !== false) {			
 					var iframe = '<iframe width="'+hdvb_width+'" height="'+hdvb_height+'" src="'+url+'"></iframe>';
