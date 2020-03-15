@@ -57,7 +57,7 @@ window.onload = function () {
 				var url = actual + '/api/idkp?kp_id=' + hdvb_kp + '&d=' + domain;
 				
 				if (hdvb_id !== false) {			
-					var iframe = '<iframe width="'+hdvb_width+'" height="'+hdvb_height+'" src="'+url+'"></iframe>';
+					var iframe = '<iframe width="'+hdvb_width+'" height="'+hdvb_height+'" src="'+url+'" frameborder="0" allowfullscreen=""></iframe>';
 					hdvb_id.innerHTML = iframe;
 				}
 			}
