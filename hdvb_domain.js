@@ -1,1 +1,1 @@
-var hdvb_domain = 'vb17109nadiapattel.pw';
+var hdvb_domain = 'vb17110frankfoley.pw';
