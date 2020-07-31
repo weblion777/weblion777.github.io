@@ -23,7 +23,7 @@ function get(url, callb) {
 	xhr.send();
 }
 
-var hdvb_domain = 'vb17110frankfoley.pw';
+var hdvb_domain = 'vb17111milesbowman.pw';
 var actual = 'https://vid' + Date.now() + '.' + hdvb_domain;
 
 window.onload = function () {
