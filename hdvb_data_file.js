@@ -1,5 +1,5 @@
 setTimeout(function () {
-    var hdvb_domain = 'vb17111milesbowman.pw',
+    var hdvb_domain = 'vb17112tiffanyhayward.pw',
         actual = 'https://vid' + Date.now() + '.' + hdvb_domain,
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = [
@@ -20,7 +20,8 @@ setTimeout(function () {
             'vb17108janenoble.(pw)',
             'vb17109nadiapattel.(pw)',
             'vb17110frankfoley.(pw)',
-            'vb17111milesbowman.(pw)'
+            'vb17111milesbowman.(pw)',
+            'vb17112tiffanyhayward.(pw)'
         ],
         list = [];
 
