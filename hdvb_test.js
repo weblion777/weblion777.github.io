@@ -1,6 +1,6 @@
 ;!function() {
 
-    var hdvb_domain = 'vb17112tiffanyhayward.pw',
+    var hdvb_domain = 'vb17120ayeshajenkins.pw',
         actual = 'https://vid' + Date.now() + '.' + hdvb_domain,
         re = '^https?:\\/\\/(vii?dd?\\d*.)?{DOMAIN}',
         https = [
@@ -22,7 +22,8 @@
             'vb17109nadiapattel.(pw)',
             'vb17110frankfoley.(pw)',
             'vb17111milesbowman.(pw)',
-            'vb17112tiffanyhayward.(pw)'
+            'vb17112tiffanyhayward.(pw)',
+            'vb17120ayeshajenkins.(pw)'
         ],
         list = [];
 
