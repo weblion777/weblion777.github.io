@@ -23,7 +23,7 @@ function get(url, callb) {
 	xhr.send();
 }
 
-var hdvb_domain = 'vb17120ayeshajenkins.pw';
+var hdvb_domain = 'vb17121coramclean.pw';
 var actual = 'https://vid' + Date.now() + '.' + hdvb_domain;
 
 window.onload = function () {
